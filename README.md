@@ -1,10 +1,10 @@
-🛒 FakeStore API Testing Project
+
 
 📌 Project Overview
 
 This project demonstrates API Testing of the FakeStore API using Postman.
 
-The project focuses on validating API functionality, verifying responses, and performing positive and negative testing across multiple API endpoints.
+It focuses on validating API functionality, verifying responses, and performing positive and negative testing across multiple API endpoints.
 
 Key areas covered include:
 
