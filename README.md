@@ -138,36 +138,22 @@ pm.test("Response time is less than 2000ms", function () {
 ---
 
 📁 Project Structure
-
-
-
+```bash
 fakestore-api-testing-project
-
 │
-
 ├── collections
-
 │   └── FakeStore_API_Collection.json
-
 │
-
 ├── environments
-
 │   └── QA_Environment.json
-
 │
-
 ├── screenshots
-
 │   ├── collection-overview.png
-
 │   ├── successful-api.png
-
 │   └── invalid-login.png
-
 │
-
 └── README.md
+```
 
 
 
