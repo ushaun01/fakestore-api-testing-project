@@ -34,7 +34,7 @@ Key areas covered include:
 
 📂 APIs Covered
 
----
+
 
 🔐 Authentication API
 ---
