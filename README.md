@@ -205,7 +205,6 @@ git clone https://github.com/ushaun01/fakestore-api-testing-project.git
 ---
 📖 Learning Outcomes
 
----
 Through this project, I gained practical experience in:
 
 - API Testing using Postman
