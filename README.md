@@ -127,6 +127,7 @@ pm.test("Products not empty", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData.length).to.be.above(0);
 });
+
 ---
 
 
@@ -135,6 +136,7 @@ Response Time Validation
 pm.test("Response time is less than 2000ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(2000);
 });
+
 ---
 
 📁 Project Structure
