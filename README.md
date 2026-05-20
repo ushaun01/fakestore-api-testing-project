@@ -2,30 +2,27 @@
 
 📌 Project Overview
 
-This project demonstrates API Testing of the FakeStore API using Postman.  
+This project demonstrates API Testing of the FakeStore API using Postman.
 
-The primary goal of this project is to validate API functionality, verify API responses, and perform both positive and negative testing on different API endpoints.
+The project focuses on validating API functionality, verifying responses, and performing positive and negative testing across multiple API endpoints.
 
-The project includes:
+Key areas covered include:
 
 - Authentication API Testing
   
 - Product API Testing
-
-- Cart API Testing
-
-- API Response Validation
   
-- Status Code Validation
+- Cart API Testing
+  
+- CRUD Operations
+  
+- Response & Status Code Validation
   
 - Response Time Validation
   
-- Environment Variable Handling
+- JSON Response Validation
   
-- CRUD-based API Operations
-
-This project helped in gaining hands-on experience with REST API Testing using Postman.
-
+- Environment Variable Handling
 
 🛠 Tool Used
 
@@ -43,12 +40,14 @@ This project helped in gaining hands-on experience with REST API Testing using P
 - Validate authentication response
 
 ❌ Invalid Login Credentials
+
 - Verify error response for invalid username/password
   
 - Validate unauthorized response status
 
- ⚠ Missing Field Validation
-- Verify validation behavior when required fields are missing
+⚠ Invalid Request Validation 
+
+- Verify API behavior for incomplete or invalid requests
 
 
 
@@ -189,23 +188,24 @@ fakestore-api-testing-project
 
 📖 Learning Outcomes
 
+
 Through this project, I gained practical experience in:
 
-- REST API Testing using Postman
+- API Testing using Postman
   
 - Writing Postman Test Scripts
   
-- Positive & Negative Testing
+- Positive & Negative API Testing
   
-- API Response Validation
+- Response & Status Code Validation
   
-- Status Code Validation
+- JSON Response Validation
   
 - Response Time Validation
   
 - Working with Environment Variables
   
-- CRUD-based API Operations
+- Performing CRUD Operations
 
 
 👩‍💻 Author
