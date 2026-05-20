@@ -74,16 +74,15 @@ Key areas covered include:
 - Validate response status code
 ---
 
- 🛒 Cart API
----
+ 🛒 Cart API 
+--- 
 ✅ Add Product to Cart
 
 - Add products successfully into cart
   
 - Validate request and response data
 ---
-  
- ✅ Delete Cart API
+✅ Delete Cart API
  
 - Delete existing cart successfully
   
