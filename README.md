@@ -172,8 +172,11 @@ fakestore-api-testing-project
 
 🚀 How to Execute the Project
 
-1. Clone  the repository
-   
+1. Clone the repository
+
+```bash
+git clone https://github.com/ushaun01/fakestore-api-testing-project.git
+
 2. Open Postman
 
 3. Import the Collection JSON file
