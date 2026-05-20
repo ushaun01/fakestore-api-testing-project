@@ -24,34 +24,44 @@ Key areas covered include:
   
 - Environment Variable Handling
 
+---
+
 🛠 Tool Used
 
 - Postman
 
+---
 
 📂 APIs Covered
 
+---
+
 🔐 Authentication API
+---
 
  ✅ Valid Login
  
 - Verify successful login with valid credentials
   
 - Validate authentication response
+---
 
 ❌ Invalid Login Credentials
 
 - Verify error response for invalid username/password
   
 - Validate unauthorized response status
+---
 
 ⚠ Invalid Request Validation 
 
 - Verify API behavior for incomplete or invalid requests
+---
 
 
 
 📦 Products API
+---
 
 ✅ Get Products API
 
@@ -62,21 +72,23 @@ Key areas covered include:
 - Validate product list is not empty
   
 - Validate response status code
-
+---
 
  🛒 Cart API
-
+---
 ✅ Add Product to Cart
 
 - Add products successfully into cart
   
 - Validate request and response data
+---
   
  ✅ Delete Cart API
  
 - Delete existing cart successfully
   
 - Validate delete operation response
+---
 
 
 
@@ -95,11 +107,12 @@ Key areas covered include:
 - JSON Response Validation
   
 - Environment Variable Usage
+---
 
 
 
 🧪 Sample Postman Test Scripts
-
+---
 Status Code Validation
 
 
@@ -107,7 +120,7 @@ pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 
-
+---
 Response Validation
 
 
@@ -115,6 +128,7 @@ pm.test("Products not empty", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData.length).to.be.above(0);
 });
+---
 
 
 Response Time Validation
@@ -122,7 +136,7 @@ Response Time Validation
 pm.test("Response time is less than 2000ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(2000);
 });
-
+---
 
 📁 Project Structure
 
@@ -158,7 +172,7 @@ fakestore-api-testing-project
 
 
 
-
+---
 📸 Screenshots Included
 
 - Collection Overview
@@ -169,7 +183,7 @@ fakestore-api-testing-project
 - Negative Testing Response
 
 
-
+---
 🚀 How to Execute the Project
 
 1. Clone the repository
@@ -189,10 +203,10 @@ git clone https://github.com/ushaun01/fakestore-api-testing-project.git
 6. Run APIs individually or using Collection Runner
 
 
-
+---
 📖 Learning Outcomes
 
-
+---
 Through this project, I gained practical experience in:
 
 - API Testing using Postman
@@ -211,7 +225,7 @@ Through this project, I gained practical experience in:
   
 - Performing CRUD Operations
 
-
+---
 👩‍💻 Author
 
 Usha Nazare
