@@ -176,6 +176,7 @@ fakestore-api-testing-project
 
 ```bash
 git clone https://github.com/ushaun01/fakestore-api-testing-project.git
+```
 
 2. Open Postman
 
