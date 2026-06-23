@@ -1,5 +1,4 @@
 
-
 📌 Project Overview
 
 This project demonstrates API Testing of the FakeStore API using Postman.
